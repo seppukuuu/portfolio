@@ -1,23 +1,80 @@
 {
   "projects": [
     {
-      "title": "EUFL Brand Identity",
-      "tag": "Branding",
+      "title": "EUFL",
+      "tag": "Sports branding",
       "year": "2026",
-      "desc": "Full visual brand identity for a European Ultimate Frisbee league. My graduation project.",
-      "blocks": []
-    },
-    {
-      "title": "New project",
-      "tag": "",
-      "year": "2026",
-      "desc": "sdsd",
+      "desc": "Rebranding a professional European Ultimate Frisbee league for my bachelor project.",
       "blocks": [
         {
-          "type": "image",
-          "file": "uploads/seppe-logo-mwtn8iic4nrq.png",
-          "w": "full",
-          "cover": true
+          "type": "heading",
+          "text": "The league",
+          "w": "full"
+        },
+        {
+          "type": "text",
+          "text": "For my bachelor project, I created a complete rebrand for a professional European Ultimate Frisbee league, with clubs from across Europe: Brussels Blades, Rotterdam Rangers, Berlin Eagles, Stockholm Frost and Madrid Sol.",
+          "w": "full"
+        },
+        {
+          "type": "heading",
+          "text": "Visual identity",
+          "w": "full"
+        },
+        {
+          "type": "text",
+          "text": "I developed the main EUFL identity and a visual direction that could carry through the league's club identities, graphics and motion work.",
+          "w": "full"
+        },
+        {
+          "type": "heading",
+          "text": "Club identities",
+          "w": "full"
+        },
+        {
+          "type": "text",
+          "text": "Each club received its own visual identity, while sharing a clear connection to the wider EUFL brand.",
+          "w": "full"
+        },
+        {
+          "type": "heading",
+          "text": "Motion design",
+          "w": "full"
+        },
+        {
+          "type": "text",
+          "text": "I brought the identity into motion through animated sports graphics and social content, including team-specific goal animations.",
+          "w": "full"
+        },
+        {
+          "type": "heading",
+          "text": "Social media",
+          "w": "full"
+        },
+        {
+          "type": "text",
+          "text": "The social campaign includes hype posts, promotional visuals and content for individual teams.",
+          "w": "full"
+        },
+        {
+          "type": "heading",
+          "text": "Rules explainer",
+          "w": "full"
+        },
+        {
+          "type": "text",
+          "text": "A motion-based explainer uses animation and graphics to make the rules of Ultimate Frisbee easier to follow.",
+          "w": "full"
+        },
+        {
+          "type": "heading",
+          "text": "Exhibition",
+          "w": "full"
+        },
+        {
+          "type": "text",
+          "text": "The final project was presented as a series of 12 A4 posters, each showing a different part of the EUFL identity.",
+          "w": "full"
         }
       ]
     }
