@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "title": "EUFL Brand Identity",
+      "tag": "Branding",
+      "year": "2026",
+      "desc": "Full visual brand identity for a European Ultimate Frisbee league. My graduation project.",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "The idea",
+          "w": "full"
+        },
+        {
+          "type": "text",
+          "text": "Voeg hier de tekst en beelden van je project toe via de CMS-editor.",
+          "w": "full"
+        }
+      ]
+    }
+  ]
+}
