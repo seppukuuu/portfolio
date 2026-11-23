@@ -5,16 +5,19 @@
       "tag": "Branding",
       "year": "2026",
       "desc": "Full visual brand identity for a European Ultimate Frisbee league. My graduation project.",
+      "blocks": []
+    },
+    {
+      "title": "New project",
+      "tag": "",
+      "year": "2026",
+      "desc": "sdsd",
       "blocks": [
         {
-          "type": "heading",
-          "text": "The idea",
-          "w": "full"
-        },
-        {
-          "type": "text",
-          "text": "Voeg hier de tekst en beelden van je project toe via de CMS-editor.",
-          "w": "full"
+          "type": "image",
+          "file": "uploads/seppe-logo-mwtn8iic4nrq.png",
+          "w": "full",
+          "cover": true
         }
       ]
     }
