@@ -1,11 +1,20 @@
 {
   "projects": [
     {
-      "title": "EUFL",
+      "title": "BACHELOR PROJECT",
       "tag": "Sports branding",
       "year": "2026",
-      "desc": "Rebranding a professional European Ultimate Frisbee league for my bachelor project.",
+      "desc": "Creating a fictional European Ultimate Frisbee League",
       "blocks": [
+        {
+          "type": "text",
+          "text": "For my bachelor project, I created a fictional professional European Ultimate Frisbee league called EUFL.\n\nThe project started from scratch: I created the league, its branding and the visual identity for the competition and its teams.",
+          "w": "full"
+        },
+        {
+          "type": "divider",
+          "w": "full"
+        },
         {
           "type": "heading",
           "text": "The league",
@@ -13,38 +22,70 @@
         },
         {
           "type": "text",
-          "text": "For my bachelor project, I created a complete rebrand for a professional European Ultimate Frisbee league, with clubs from across Europe: Brussels Blades, Rotterdam Rangers, Berlin Eagles, Stockholm Frost and Madrid Sol.",
+          "text": "EUFL is a fictional European Ultimate Frisbee league bringing together teams from different European cities.",
           "w": "full"
         },
         {
+          "type": "image",
+          "file": "uploads/branding-file-09-mwtrqbrt1tm2.png",
+          "w": "full",
+          "width": 100
+        },
+        {
           "type": "heading",
-          "text": "Visual identity",
+          "text": "Branding",
           "w": "full"
         },
         {
           "type": "text",
-          "text": "I developed the main EUFL identity and a visual direction that could carry through the league's club identities, graphics and motion work.",
+          "text": "I created the visual identity for the EUFL from scratch, including the main league branding and the visual direction for the competition.",
+          "w": "full"
+        },
+        {
+          "type": "image",
+          "file": "uploads/show-teams-posters-04-mwtr3i3abf0g.jpg",
           "w": "full"
         },
         {
           "type": "heading",
-          "text": "Club identities",
+          "text": "The teams",
           "w": "full"
         },
         {
           "type": "text",
-          "text": "Each club received its own visual identity, while sharing a clear connection to the wider EUFL brand.",
+          "text": "Each team was given its own identity within the overall EUFL league.\n\nThe team branding was designed to give every club its own character while still making them part of the same competition.",
           "w": "full"
         },
         {
-          "type": "heading",
-          "text": "Motion design",
-          "w": "full"
+          "type": "image",
+          "file": "uploads/show-teams-posters-01-mwtt251eubpn.jpg",
+          "w": "half",
+          "width": 50
         },
         {
-          "type": "text",
-          "text": "I brought the identity into motion through animated sports graphics and social content, including team-specific goal animations.",
-          "w": "full"
+          "type": "image",
+          "file": "uploads/show-teams-posters-02-mwtt254jnop0.jpg",
+          "w": "half",
+          "width": 50
+        },
+        {
+          "type": "image",
+          "file": "uploads/show-teams-posters-03-mwtt257080fs.jpg",
+          "w": "half",
+          "width": 50
+        },
+        {
+          "type": "image",
+          "file": "uploads/show-teams-posters-05-mwtt2596k1qa.jpg",
+          "w": "half",
+          "width": 50
+        },
+        {
+          "type": "image",
+          "file": "uploads/show-teams-posters-06-mwtt25bibctz.jpg",
+          "w": "half",
+          "width": 50,
+          "align": "center"
         },
         {
           "type": "heading",
@@ -52,8 +93,44 @@
           "w": "full"
         },
         {
+          "type": "image",
+          "file": "uploads/brussel-blades-insta-mwtuaqbl8rzk.png",
+          "w": "half",
+          "width": 50
+        },
+        {
+          "type": "image",
+          "file": "uploads/insta-frost-2-mwtuaqg0t043.png",
+          "w": "half",
+          "width": 50
+        },
+        {
+          "type": "image",
+          "file": "uploads/kaartje-rangers-mwtuaqik78j8.png",
+          "w": "half",
+          "width": 50
+        },
+        {
+          "type": "image",
+          "file": "uploads/madrid-sols-mwtuaqmjqtub.png",
+          "w": "half",
+          "width": 50
+        },
+        {
+          "type": "image",
+          "file": "uploads/matchday-berlin-vs-sols-mwtuaqqq6hto.png",
+          "w": "half",
+          "width": 50
+        },
+        {
+          "type": "image",
+          "file": "uploads/test-berlin-mwtuaqu5hc3o.png",
+          "w": "half",
+          "width": 50
+        },
+        {
           "type": "text",
-          "text": "The social campaign includes hype posts, promotional visuals and content for individual teams.",
+          "text": "I created social media content for the fictional league and its teams.\n\nThis included hype posts and other visual content to promote the competition and matches.",
           "w": "full"
         },
         {
@@ -63,20 +140,44 @@
         },
         {
           "type": "text",
-          "text": "A motion-based explainer uses animation and graphics to make the rules of Ultimate Frisbee easier to follow.",
+          "text": "I also created an animated rules explainer to explain the basic rules of Ultimate Frisbee through motion and visual graphics.",
           "w": "full"
         },
         {
-          "type": "heading",
-          "text": "Exhibition",
-          "w": "full"
-        },
-        {
-          "type": "text",
-          "text": "The final project was presented as a series of 12 A4 posters, each showing a different part of the EUFL identity.",
-          "w": "full"
+          "type": "youtube",
+          "url": "https://youtu.be/bB_aR-seYoE",
+          "w": "full",
+          "width": 100
         }
-      ]
+      ],
+      "coverPosition": {
+        "x": 50,
+        "y": 50
+      },
+      "coverZoom": 0.65,
+      "coverFile": "uploads/eufl-logo-2-mwtpkxrxer74.png",
+      "coverBg": "#0a1175"
+    },
+    {
+      "title": "New project",
+      "tag": "",
+      "year": "2026",
+      "desc": "",
+      "blocks": []
+    },
+    {
+      "title": "New project",
+      "tag": "",
+      "year": "2026",
+      "desc": "",
+      "blocks": []
+    },
+    {
+      "title": "New project",
+      "tag": "",
+      "year": "2026",
+      "desc": "",
+      "blocks": []
     }
   ]
 }

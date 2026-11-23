@@ -43,7 +43,8 @@
           <span class="l">P</span>
           <span class="l">E</span>
         </div>
-        <p class="sub">Independent designer based in Belgium</p>
+        <p class="hero-label">Portfolio</p>
+        <p class="sub">Designer based in Belgium</p>
       </section>
 
       <div class="tape" aria-label="Motion design, branding, visual identity and graphic design">
@@ -53,7 +54,10 @@
       <section id="work">
         <h2>Selected work</h2>
         <p class="lead">Brands, motion and a bit of print.</p>
-        <div class="grid" id="grid"></div>
+        <div class="work-layout">
+          <div class="grid" id="grid"></div>
+          <aside id="project-editor" class="project-editor" aria-label="Work preview editor" hidden></aside>
+        </div>
       </section>
 
       <section id="about">
@@ -80,6 +84,9 @@
           <a href="https://www.linkedin.com/in/seppedepauw/" target="_blank" rel="noopener noreferrer">
             LinkedIn ↗
           </a>
+          <a href="mailto:seppedepauw.27@hotmail.com">
+            seppedepauw.27@hotmail.com ↗
+          </a>
         </nav>
       </footer>
     </main>
@@ -90,14 +97,20 @@
       <span class="admin-label">Local edit</span>
       <button type="button" data-admin-action="new">+ Project</button>
       <button type="button" data-admin-action="media">+ Photo / video</button>
+      <button type="button" data-admin-action="youtube">+ YouTube</button>
       <button type="button" data-admin-action="heading">+ Heading</button>
       <button type="button" data-admin-action="text">+ Text</button>
+      <button type="button" data-admin-action="line">+ Line</button>
       <button type="button" data-admin-action="save" class="save">Save</button>
       <span id="admin-status" role="status" aria-live="polite">Ready</span>
       <button type="button" data-admin-action="exit" class="exit">Done</button>
     </div>
 
     <input type="file" id="media-file" accept="image/*,video/*" multiple hidden>
+    <dialog class="image-lightbox" id="image-lightbox" aria-label="Enlarged project image">
+      <button type="button" class="image-lightbox-close" data-lightbox-close aria-label="Close image">×</button>
+      <img id="image-lightbox-image" alt="">
+    </dialog>
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
     <script src="script.js"></script>
