@@ -1,8 +1,25 @@
 {
   "projects": [
     {
+      "title": "ZWANGERE GUY PRINT",
+      "tag": "GRAPHIC DESIGN",
+      "year": "2026",
+      "desc": "graphic design",
+      "blocks": [
+        {
+          "type": "image",
+          "file": "uploads/zwangere-guy-3-mwussfd5ga8o.png",
+          "w": "full",
+          "cover": true,
+          "width": 80,
+          "align": "center"
+        }
+      ],
+      "coverFile": "uploads/zwangere-guy-3-mwussfd5ga8o.png"
+    },
+    {
       "title": "BACHELOR PROJECT",
-      "tag": "Sports branding",
+      "tag": "SPORTS BRANDING + 2D MOTION",
       "year": "2026",
       "desc": "Creating a fictional European Ultimate Frisbee League",
       "blocks": [
@@ -159,25 +176,197 @@
       "coverBg": "#0a1175"
     },
     {
-      "title": "New project",
+      "title": "EXPLAINER",
       "tag": "",
       "year": "2026",
-      "desc": "",
-      "blocks": []
+      "desc": "A short explainer video about Audie Murphy, one of the most decorated American soldiers of World War II.",
+      "blocks": [
+        {
+          "type": "youtube",
+          "url": "https://youtu.be/LDzRR4E1KF8",
+          "w": "full",
+          "width": 100
+        }
+      ],
+      "coverFile": "uploads/screenshot-2026-11-24-154841-mwut8pclp9zb.png"
     },
     {
-      "title": "New project",
+      "title": "INTERNSHIP",
       "tag": "",
       "year": "2026",
       "desc": "",
-      "blocks": []
+      "blocks": [
+        {
+          "type": "text",
+          "text": "One of the videos I created during my internship, as part of several projects I worked on during my time at Visual Internationals / Animationals Internationals.",
+          "w": "full"
+        },
+        {
+          "type": "video",
+          "file": "uploads/deel-2-webshop-v1-1-1-mwutcnvvaxzu.mp4",
+          "w": "full"
+        }
+      ]
     },
     {
-      "title": "New project",
+      "title": "CORPORATE VIDEO",
+      "tag": "VIDEO",
+      "year": "2026",
+      "desc": "about Grega NV",
+      "blocks": [
+        {
+          "type": "youtube",
+          "url": "https://youtu.be/axVxywb2fcU",
+          "w": "full",
+          "width": 100
+        }
+      ],
+      "coverFile": "uploads/screenshot-2026-11-24-145435-mwurc6beos44.png"
+    },
+    {
+      "title": "SATISFYING LOOP",
+      "tag": "3D",
+      "year": "2026",
+      "desc": "made in cinema 4d",
+      "blocks": [
+        {
+          "type": "video",
+          "file": "uploads/mot3d2-01-2024-25-sdp-1-mwuqr6s22qvs.mp4",
+          "w": "full"
+        }
+      ],
+      "coverFile": "uploads/screenshot-2026-11-24-144048-mwuqt7a7opwx.png"
+    },
+    {
+      "title": "BRAND DESIGN",
+      "tag": "BRANDING 2D",
+      "year": "2026",
+      "desc": "",
+      "blocks": [
+        {
+          "type": "text",
+          "text": "A fictional branding package created for AVDtv, a fictional Artevelde University media channel. The package includes a channel ID, SVO, wipe, bumper and tag-on, designed as a consistent motion graphics system for video content.\n\nAll animations were created as editable templates, with names, roles and credits easily adjustable.A fictional branding package created for AVDtv, a fictional Artevelde University media channel. The package includes a channel ID, SVO, wipe, bumper and tag-on, designed as a consistent motion graphics system for video content.\n\nAll animations were created as editable templates, with names, roles and credits easily adjustable.",
+          "w": "full"
+        },
+        {
+          "type": "video",
+          "file": "uploads/mo2d2-br-nd-ae-2023-24-depauw-seppe-mwuroxiys0xp.mp4",
+          "w": "full"
+        }
+      ],
+      "coverFile": "uploads/screenshot-2026-11-24-150743-mwurs4cmazno.png"
+    },
+    {
+      "title": "PACKSHOT",
+      "tag": "3D",
+      "year": "2026",
+      "desc": "Fictional Valentino perfume packshot",
+      "blocks": [
+        {
+          "type": "video",
+          "file": "uploads/mot3d1-04-2024-25-sdp-mwuregqq7zf4.mp4",
+          "w": "full"
+        }
+      ],
+      "coverFile": "uploads/screenshot-2026-11-24-145836-mwurg79xxjuz.png"
+    },
+    {
+      "title": "ETUDE",
+      "tag": "VIDEO",
+      "year": "2026",
+      "desc": "",
+      "blocks": [
+        {
+          "type": "youtube",
+          "url": "https://youtu.be/Pc2PtfRZzEw",
+          "w": "full",
+          "width": 100
+        }
+      ],
+      "coverFile": "uploads/screenshot-2026-11-24-150154-mwurkohbidn5.png"
+    },
+    {
+      "title": "SPOT",
+      "tag": "VIDEO",
+      "year": "2026",
+      "desc": "A fictional advertising spot created for Post-it.",
+      "blocks": [
+        {
+          "type": "youtube",
+          "url": "https://youtu.be/kiKTz6JNNCo",
+          "w": "full",
+          "width": 100
+        }
+      ],
+      "coverFile": "uploads/screenshot-2026-11-24-151002-mwuruy3lqs6u.png",
+      "coverZoom": 1.15,
+      "coverPosition": {
+        "x": 47,
+        "y": 74
+      }
+    },
+    {
+      "title": "FRANK OCEAN PRINT",
+      "tag": "GRAPHIC DESIGN",
+      "year": "2026",
+      "desc": "graphic design",
+      "blocks": [
+        {
+          "type": "image",
+          "file": "uploads/whatsapp-image-2026-11-24-at-15-25-55-mwusrlttcoor.jpeg",
+          "w": "full",
+          "cover": true
+        }
+      ],
+      "coverFile": "uploads/whatsapp-image-2026-11-24-at-15-25-55-mwusrlttcoor.jpeg"
+    },
+    {
+      "title": "CHASE SCENE",
+      "tag": "VIDEO",
+      "year": "2026",
+      "desc": "A group project where we created an action/chase scene ",
+      "blocks": [
+        {
+          "type": "video",
+          "file": "uploads/chase-av2-2023-24-groep-10-1080p-1-mwusmkxfjhr7.mp4",
+          "w": "full"
+        }
+      ],
+      "coverFile": "uploads/screenshot-2026-11-24-153454-mwusqrqldtfe.png",
+      "coverZoom": 1,
+      "coverPosition": {
+        "x": 62,
+        "y": 100
+      }
+    },
+    {
+      "title": "SLOGANESQUE",
       "tag": "",
       "year": "2026",
       "desc": "",
-      "blocks": []
+      "blocks": [
+        {
+          "type": "video",
+          "file": "uploads/mg-16-2d-2022-23-depauw-seppe-1080p-mwuswdmyg6nm.mp4",
+          "w": "full"
+        }
+      ],
+      "coverFile": "uploads/screenshot-2026-11-24-153955-mwutb5mxdsqo.png"
+    },
+    {
+      "title": "ISOMETRIC",
+      "tag": "",
+      "year": "2026",
+      "desc": "",
+      "blocks": [
+        {
+          "type": "image",
+          "file": "uploads/mg-20-3d-2022-23-sdp-mwut3vfm08vl.png",
+          "w": "full",
+          "cover": true
+        }
+      ],
+      "coverFile": "uploads/mg-20-3d-2022-23-sdp-mwut3vfm08vl.png"
     }
   ]
 }
