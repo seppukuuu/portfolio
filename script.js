@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 (function () {
   "use strict";
 
@@ -445,7 +444,7 @@
     editor.innerHTML = !state.admin || !state.previewEditorOpen
       ? ""
       : activeProject
-      ? `
+        ? `
         <div class="project-editor-heading">
           <div>
             <p class="project-editor-kicker">Preview editor</p>
@@ -457,7 +456,7 @@
         <p class="project-editor-help">Drag to reframe. Position snaps near center; zoom adjusts in 5% steps.</p>
         ${projectControls(state.activePreviewEditorIndex)}
       `
-      : `
+        : `
         <p class="project-editor-kicker">Preview editor</p>
         <p class="project-editor-empty">Select a work preview to edit its card image, color, position and zoom.</p>
       `;
@@ -1780,7 +1779,6 @@
     select("#grid").innerHTML = '<p class="empty" role="alert">Could not load projects. Refresh the page and try again.</p>';
   });
 })();
-=======
 (function () {
   "use strict";
 
@@ -3682,4 +3680,4 @@ function openMediaPicker(replaceIndex, projectIndex, insertIndex) {
     select("#grid").innerHTML = '<p class="empty" role="alert">Could not load projects. Refresh the page and try again.</p>';
   });
 })();
->>>>>>> Stashed changes
+
