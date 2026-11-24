@@ -3680,4 +3680,3 @@ function openMediaPicker(replaceIndex, projectIndex, insertIndex) {
     select("#grid").innerHTML = '<p class="empty" role="alert">Could not load projects. Refresh the page and try again.</p>';
   });
 })();
-
