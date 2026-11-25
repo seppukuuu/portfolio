@@ -1,118 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>Seppe Portfolio</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="icon" type="image/png" href="seppe-icon.png">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Newsreader:wght@400;500;600;700&display=swap"
-      rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Seppe Portfolio</title>
 
-  <body>
-    <header>
-      <a class="brand" href="#/" aria-label="Seppe home">
-        <img src="seppe-icon.png" alt="">
-      </a>
-      <div class="header-actions">
-        <nav aria-label="Main navigation">
-          <a href="#/work">Work</a>
-          <a href="#/about">About</a>
-        </nav>
-        <nav class="header-social" aria-label="Social profiles">
-          <a href="https://instagram.com/seppe_dp_" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-            <span class="social-full">Instagram</span><span class="social-short" aria-hidden="true">IG</span>
-          </a>
-          <a href="https://www.linkedin.com/in/seppedepauw/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-            <span class="social-full">LinkedIn</span><span class="social-short" aria-hidden="true">in</span>
-          </a>
-        </nav>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" type="image/png" href="seppe-icon.png">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Newsreader:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <a class="brand" href="#/" aria-label="Seppe home">
+      <img src="seppe-icon.png" alt="">
+    </a>
+    <div class="header-actions">
+      <nav aria-label="Main navigation">
+        <a href="#/work">Work</a>
+        <a href="#/about">About</a>
+      </nav>
+      <nav class="header-social" aria-label="Social profiles">
+        <a href="https://instagram.com/seppe_dp_" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <span class="social-full">Instagram</span><span class="social-short" aria-hidden="true">IG</span>
+        </a>
+        <a href="https://www.linkedin.com/in/seppedepauw/" target="_blank" rel="noopener noreferrer"
+          aria-label="LinkedIn">
+          <span class="social-full">LinkedIn</span><span class="social-short" aria-hidden="true">in</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-label="Introduction">
+      <div class="title" aria-label="Seppe">
+        <span class="l">S</span>
+        <span class="l">E</span>
+        <span class="l">P</span>
+        <span class="l">P</span>
+        <span class="l">E</span>
       </div>
-    </header>
+      <p class="hero-label">Portfolio</p>
+      <p class="sub">Designer based in Belgium</p>
+    </section>
 
-    <main id="home">
-      <section class="hero" aria-label="Introduction">
-        <div class="title" aria-label="Seppe">
-          <span class="l">S</span>
-          <span class="l">E</span>
-          <span class="l">P</span>
-          <span class="l">P</span>
-          <span class="l">E</span>
-        </div>
-        <p class="hero-label">Portfolio</p>
-        <p class="sub">Designer based in Belgium</p>
-      </section>
-
-      <div class="tape" aria-label="Motion design, branding, visual identity and graphic design">
-        <div id="tape"></div>
-      </div>
-
-      <section id="work">
-        <h2>Selected work</h2>
-        <p class="lead">Brands, motion and a bit of print.</p>
-        <div class="work-layout">
-          <div class="grid" id="grid"></div>
-          <aside id="project-editor" class="project-editor" aria-label="Work preview editor" hidden></aside>
-        </div>
-      </section>
-
-      <section id="about">
-        <h2>About</h2>
-        <div class="about">
-          <p>
-            Graphic and digital media designer from Belgium, focused on
-            <em>Motion Design</em>, <em>Branding</em> and <em>Visual Identity</em>. I studied
-            Audiovisual Design at Artevelde University of Applied Sciences.
-           </p>
-          <p>
-            I’m currently looking for opportunities in graphic design, motion design,
-            visual identity and social media content.
-          </p>
-        </div>
-      </section>
-
-      <footer>
-        <span>SEPPE</span>
-        <nav class="social-links" aria-label="Social profiles">
-          <a href="https://instagram.com/seppe_dp_" target="_blank" rel="noopener noreferrer">
-            Instagram ↗
-          </a>
-          <a href="https://www.linkedin.com/in/seppedepauw/" target="_blank" rel="noopener noreferrer">
-            LinkedIn ↗
-          </a>
-          <a href="mailto:seppedepauw.27@hotmail.com">
-            seppedepauw.27@hotmail.com ↗
-          </a>
-        </nav>
-      </footer>
-    </main>
-
-    <main id="proj" hidden></main>
-
-    <div class="admin-bar admin-only" id="admin-bar" aria-label="Local project editor">
-      <span class="admin-label">Local edit</span>
-      <button type="button" data-admin-action="new">+ Project</button>
-      <button type="button" data-admin-action="media">+ Photo / video</button>
-      <button type="button" data-admin-action="youtube">+ YouTube</button>
-      <button type="button" data-admin-action="heading">+ Heading</button>
-      <button type="button" data-admin-action="text">+ Text</button>
-      <button type="button" data-admin-action="line">+ Line</button>
-      <button type="button" data-admin-action="save" class="save">Save</button>
-      <span id="admin-status" role="status" aria-live="polite">Ready</span>
-      <button type="button" data-admin-action="exit" class="exit">Done</button>
+    <div class="tape" aria-label="Motion design, branding, visual identity and graphic design">
+      <div id="tape"></div>
     </div>
 
-    <input type="file" id="media-file" accept="image/*,video/*" multiple hidden>
-    <dialog class="image-lightbox" id="image-lightbox" aria-label="Enlarged project image">
-      <button type="button" class="image-lightbox-close" data-lightbox-close aria-label="Close image">×</button>
-      <img id="image-lightbox-image" alt="">
-    </dialog>
-    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <section id="work">
+      <h2>Selected work</h2>
+      <p class="lead">Brands, motion and a bit of print.</p>
+      <div class="work-layout">
+        <div class="grid" id="grid"></div>
+        <aside id="project-editor" class="project-editor" aria-label="Work preview editor" hidden></aside>
+      </div>
+    </section>
 
-    <script src="script.js"></script>
-  </body>
+   <section id="about">
+  <h2>About</h2>
+  <div class="about">
+    <p>
+      Graphic and digital media designer from Belgium, with a focus on
+      <em>Motion Design</em>, <em>Branding</em> and <em>Visual Identity</em>.
+    </p>
+    <p>
+      I graduated with a Bachelor’s Degree in Graphic and Digital Media,
+      specializing in Audiovisual Design - Experttrack Motion Design at
+      Artevelde University of Applied Sciences.
+    </p>
+    <p>
+      I’m currently looking for opportunities where I can create
+      <em>visuals, motion and content</em> for brands, campaigns and social media.
+    </p>
+  </div>
+</section>
+
+    <footer>
+      <span>SEPPE</span>
+      <nav class="social-links" aria-label="Social profiles">
+        <a href="https://instagram.com/seppe_dp_" target="_blank" rel="noopener noreferrer">
+          Instagram ↗
+        </a>
+        <a href="https://www.linkedin.com/in/seppedepauw/" target="_blank" rel="noopener noreferrer">
+          LinkedIn ↗
+        </a>
+        <a href="mailto:seppedepauw.27@hotmail.com">
+          seppedepauw.27@hotmail.com ↗
+        </a>
+      </nav>
+    </footer>
+  </main>
+
+  <main id="proj" hidden></main>
+
+  <div class="admin-bar admin-only" id="admin-bar" aria-label="Local project editor">
+    <span class="admin-label">Local edit</span>
+    <button type="button" data-admin-action="new">+ Project</button>
+    <button type="button" data-admin-action="media">+ Photo / video</button>
+    <button type="button" data-admin-action="youtube">+ YouTube</button>
+    <button type="button" data-admin-action="heading">+ Heading</button>
+    <button type="button" data-admin-action="text">+ Text</button>
+    <button type="button" data-admin-action="line">+ Line</button>
+    <button type="button" data-admin-action="save" class="save">Save</button>
+    <span id="admin-status" role="status" aria-live="polite">Ready</span>
+    <button type="button" data-admin-action="exit" class="exit">Done</button>
+  </div>
+
+  <input type="file" id="media-file" accept="image/*,video/*" multiple hidden>
+  <dialog class="image-lightbox" id="image-lightbox" aria-label="Enlarged project image">
+    <button type="button" class="image-lightbox-close" data-lightbox-close aria-label="Close image">×</button>
+    <img id="image-lightbox-image" alt="">
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
