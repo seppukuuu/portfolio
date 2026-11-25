@@ -110,6 +110,11 @@
           "w": "full"
         },
         {
+          "type": "text",
+          "text": "I created social media content for the fictional league and its teams.\n\nThis included hype posts and other visual content to promote the competition and matches.",
+          "w": "full"
+        },
+        {
           "type": "image",
           "file": "uploads/brussel-blades-insta-mwtuaqbl8rzk.png",
           "w": "half",
@@ -146,13 +151,47 @@
           "width": 50
         },
         {
-          "type": "text",
-          "text": "I created social media content for the fictional league and its teams.\n\nThis included hype posts and other visual content to promote the competition and matches.",
+          "type": "heading",
+          "text": "Jerseys",
           "w": "full"
         },
         {
+          "type": "text",
+          "text": "A fictional jersey collection created for the European Ultimate Frisbee League (EUFL), with each design based on a different fictional team and its visual identity.",
+          "w": "full"
+        },
+        {
+          "type": "image",
+          "file": "uploads/mockup-shirts-02-mwvd187l1ryi.png",
+          "w": "full",
+          "width": 100,
+          "align": "left"
+        },
+        {
+          "type": "image",
+          "file": "uploads/mockup-shirts-03-mwvd18adhjy8.png",
+          "w": "full"
+        },
+        {
+          "type": "image",
+          "file": "uploads/mockup-shirts-04-mwvd18ch5py2.png",
+          "w": "full"
+        },
+        {
+          "type": "image",
+          "file": "uploads/mockup-shirts-05-mwvd18elvwwv.png",
+          "w": "full"
+        },
+        {
+          "type": "image",
+          "file": "uploads/mockup-shirts-mwvd185d3n6c.png",
+          "w": "full",
+          "width": 100,
+          "align": "right"
+        },
+        {
           "type": "heading",
-          "text": "Rules explainer",
+          "text": "Motion Explainer",
           "w": "full"
         },
         {
@@ -177,7 +216,7 @@
     },
     {
       "title": "EXPLAINER",
-      "tag": "",
+      "tag": "3D",
       "year": "2026",
       "desc": "A short explainer video about Audie Murphy, one of the most decorated American soldiers of World War II.",
       "blocks": [
@@ -192,7 +231,7 @@
     },
     {
       "title": "INTERNSHIP",
-      "tag": "",
+      "tag": "2D MOTION",
       "year": "2026",
       "desc": "",
       "blocks": [
@@ -240,7 +279,7 @@
     },
     {
       "title": "BRAND DESIGN",
-      "tag": "BRANDING 2D",
+      "tag": "BRANDING 2D MOTION",
       "year": "2026",
       "desc": "",
       "blocks": [
@@ -342,7 +381,7 @@
     },
     {
       "title": "SLOGANESQUE",
-      "tag": "",
+      "tag": "MOTION",
       "year": "2026",
       "desc": "",
       "blocks": [
@@ -356,7 +395,7 @@
     },
     {
       "title": "ISOMETRIC",
-      "tag": "",
+      "tag": "3D",
       "year": "2026",
       "desc": "",
       "blocks": [
